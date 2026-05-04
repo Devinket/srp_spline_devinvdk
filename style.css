@@ -1,0 +1,203 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #fff;
+  color: #1d1d1f;
+}
+
+/* ── NAV BANNER ── */
+.nav-banner {
+  background: #f5f5f7;
+  text-align: center;
+  padding: 8px 16px;
+  font-size: 12px;
+  color: #1d1d1f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.nav-banner a { color: #06c; text-decoration: none; }
+.nav-banner a:hover { text-decoration: underline; }
+.nav-banner select {
+  border: none;
+  background: transparent;
+  font-size: 12px;
+  color: #1d1d1f;
+}
+.nav-banner button.go {
+  background: #1d1d1f;
+  color: #fff;
+  border: none;
+  border-radius: 980px;
+  padding: 4px 14px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.nav-banner .close { cursor: pointer; font-size: 14px; color: #888; margin-left: 8px; }
+
+/* ── NAV ── */
+nav {
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 16px;
+  height: 44px;
+}
+nav ul li a {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 12px;
+  color: #1d1d1f;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+nav ul li a:hover { opacity: 1; }
+nav ul li a svg { width: 16px; height: 16px; fill: #1d1d1f; }
+
+/* ── HERO (donker) ── */
+.hero {
+  background: #000;
+  display: flex;
+  align-items: center;
+  padding: 60px 80px;
+  min-height: 520px;
+  gap: 40px;
+}
+
+/* ── EMBED CONTAINERS ── */
+.embed-container {
+
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.05);
+  color: rgba(255,255,255,0.3);
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.hero .embed-container {
+  width: 800px;
+  height: 400px;
+}
+
+.hero-text {
+  flex: 1;
+  color: #f5f5f7;
+}
+.hero-text h1 {
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1.05;
+}
+
+/* ── SECTIE 2 (teal) ── */
+.section-teal {
+  background: #a2f0e8;
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.section-teal h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1d1d1f;
+  text-align: center;
+}
+.section-teal h2 span {
+  color: #06799f;
+}
+
+.section-teal .embed-container {
+  width: 1200px;
+  height: 420px;
+  font-size: 14px;
+}
+
+/* ── FOOTER ── */
+footer {
+  background: #f5f5f7;
+  padding: 32px 80px 24px;
+  font-size: 12px;
+  color: #6e6e73;
+  border-top: 1px solid #d2d2d7;
+}
+.footer-top {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d2d2d7;
+  margin-bottom: 20px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+}
+.footer-col h4 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+  margin-bottom: 10px;
+}
+.footer-col ul { list-style: none; }
+.footer-col ul li { margin-bottom: 6px; }
+.footer-col ul li a {
+  color: #6e6e73;
+  text-decoration: none;
+  font-size: 12px;
+}
+.footer-col ul li a:hover { text-decoration: underline; }
+.footer-bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.footer-bottom a { color: #6e6e73; text-decoration: none; }
+.footer-bottom a:hover { text-decoration: underline; }
+.footer-links { display: flex; gap: 16px; }
+
+/* ── EMBED PLACEHOLDER ── */
+.embed-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  pointer-events: none;
+  user-select: none;
+}
+.embed-placeholder svg {
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+
+
+
+
+/* apple logo */
+nav img:first-child {
+    width: 16px;
+}
