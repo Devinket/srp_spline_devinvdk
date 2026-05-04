@@ -96,7 +96,7 @@ nav ul li a svg { width: 16px; height: 16px; fill: #1d1d1f; }
 
   width: 100%;
   max-width: 800px;
-  aspect-ratio: 2 / 1;
+  aspect-ratio: 1.2 / 1;
 }
 
 .hero .embed-container iframe {
@@ -151,9 +151,11 @@ nav ul li a svg { width: 16px; height: 16px; fill: #1d1d1f; }
 }
 
 .section-teal .embed-container {
-  width: 1200px;
-  height: 420px;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
   font-size: 14px;
+    aspect-ratio: 2 / 1;
 }
 
 /* ── FOOTER ── */
