@@ -133,6 +133,10 @@ nav img:first-child {
   text-decoration: none;
 }
 
+.koop-knop{transition:.3s}.koop-knop:hover{
+  scale:1.2;
+  background:#1d81e5}
+
 .hero-text h1 {
   font-size: clamp(28px, 5vw, 56px);
   font-weight: 700;
