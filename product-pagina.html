@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Apple</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apple iPhone 14 Pro – 2025</title>
+  <link rel="stylesheet" href="product-pagina.css" />
 </head>
 <body>
 
-  <!-- Banner -->
+<!-- Banner -->
   <div class="nav-banner">
     Kies een ander land of andere regio als je de content voor jouw locatie wilt zien en online wilt shoppen.
     <select><option>Nederland</option></select>
@@ -46,43 +46,107 @@
     </ul>
   </nav>
 
-  <!-- Hero sectie -->
-  <section class="hero">
+  <main class="product-page">
+    <div class="product-layout">
 
-    <!-- ================================ -->
-    <!-- 3D EMBED CONTAINER 1 (hero)      -->
-    <!-- Vervang de div hieronder met     -->
-    <!-- jouw eigen embed / iframe code   -->
-    <!-- ================================ -->
-    <div class="embed-container" id="embed-hero">
-<iframe src='https://my.spline.design/untitled-IZcgxVJV7Gr36CxvMRwJEiUN/' frameborder='0' width='100%' height='100%'></iframe>
-    </div>
+      <!-- Left: Image embed container -->
+      <div class="product-media">
+        <div class="embed-container">
+          <iframe src='https://my.spline.design/spline3dstarterfile-MYjq13WZpAgtxospFuw69iuJ/' frameborder='0' width='100%' height='100%'></iframe>
+        </div>
+      </div>
 
-    <div class="hero-text">
-      <h1>De nieuwe iPhone!</h1>
-      <a href="./product-pagina.html" class="koop-knop">Koop</a>
-    </div>
+      <!-- Right: Product info -->
+      <div class="product-info">
 
+        <div class="product-title-row">
+          <h1 class="product-name">Apple iPhone 14 Pro</h1>
+          <span class="product-year">2025</span>
+        </div>
 
+        <div class="product-tags">
+          <span class="tag">Apple</span>
+          <span class="tag">2025</span>
+        </div>
 
-  </section>
+        <ul class="feature-list">
+          <li><span class="check">&#10003;</span> Always-on display</li>
+          <li><span class="check">&#10003;</span> 18MP Center Stage-camera</li>
+          <li><span class="check">&#10003;</span> 48-MP camera</li>
+          <li><span class="check">&#10003;</span> 6,3 inch display</li>
+          <li><span class="check">&#10003;</span> Superkrachtige A19 Pro-chip</li>
+          <li><span class="check">&#10003;</span> 3 maanden gratis Apple-services</li>
+          <li><span class="check">&#10003;</span> Tot 31 uur batterijduur</li>
+        </ul>
 
-  <!-- Teal sectie -->
-  <section class="section-teal">
+        <!-- Tab nav -->
+        <nav class="tab-nav">
+          <button class="tab-btn active">Productinformatie</button>
+          <button class="tab-btn">Specificaties</button>
+          <button class="tab-btn">Reviews</button>
+        </nav>
 
-    <h2>Maak kennis met het <span>Apple</span> Ecosysteem!</h2>
+        <div class="divider"></div>
 
-    <!-- ================================ -->
-    <!-- 3D EMBED CONTAINER 2 (ecosysteem)-->
-    <!-- Vervang de div hieronder met     -->
-    <!-- jouw eigen embed / iframe code   -->
-    <!-- ================================ -->
-    <div class="embed-container" id="embed-ecosystem">
-<iframe src='https://my.spline.design/untitled-EooTkYbZewaQapRqbtPvDIRm/' frameborder='0' width='100%' height='100%'></iframe>
+        <!-- Formaat -->
+        <section class="option-section">
+          <h2 class="option-title">Kies je formaat</h2>
+          <div class="option-group format-group">
+            <button class="option-btn selected">14 Pro</button>
+            <button class="option-btn">14 Pro Max</button>
+          </div>
+        </section>
+
+        <!-- Opslag -->
+        <section class="option-section">
+          <h2 class="option-title">Kies je opslag</h2>
+          <div class="option-group storage-group">
+            <button class="option-btn">256GB</button>
+            <button class="option-btn">512GB</button>
+            <button class="option-btn">1TB</button>
+          </div>
+        </section>
+
+        <!-- Kleur -->
+        <section class="option-section">
+          <h2 class="option-title">Kies je kleur</h2>
+          <div class="color-group">
+            <label class="color-option">
+              <input type="radio" name="color" value="zilver" checked />
+              <span class="color-dot" style="background: #292929; border: 2px solid #bbb;"></span>
+              <span class="color-name">Zwart</span>
+            </label>
+            <label class="color-option">
+              <input type="radio" name="color" value="oranje" />
+              <span class="color-dot" style="background: #f52323;"></span>
+              <span class="color-name">Rood</span>
+            </label>
+            <label class="color-option">
+              <input type="radio" name="color" value="blauw" />
+              <span class="color-dot" style="background: #194299;"></span>
+              <span class="color-name">Blauw</span>
+            </label>
+          </div>
+        </section>
+
+        <!-- Add to cart bar -->
+        <div class="cart-bar">
+          <div class="price-block">
+            <span class="price-label">Vanaf</span>
+            <span class="price">€ 1.329,00</span>
+          </div>
+          <button class="cart-btn">
+            <svg class="cart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+            </svg>
+            In winkelmand
+          </button>
+        </div>
+
       </div>
     </div>
-
-  </section>
+  </main>
 
   <!-- Footer -->
   <footer>
@@ -215,6 +279,5 @@
       <span>United States</span>
     </div>
   </footer>
-
 </body>
 </html>

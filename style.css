@@ -71,9 +71,14 @@ nav ul li a {
 nav ul li a:hover { opacity: 1; }
 nav ul li a svg { width: 16px; height: 16px; fill: #1d1d1f; }
 
+/* apple logo */
+nav img:first-child {
+    width: 16px;
+}
 
 /* ── HERO ── */
 .hero {
+  width: 100%;
   background: #000;
   display: flex;
   align-items: center;
@@ -110,6 +115,22 @@ nav ul li a svg { width: 16px; height: 16px; fill: #1d1d1f; }
   flex: 1;
   color: #f5f5f7;
   min-width: 280px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.koop-knop {
+  display: flex;
+  align-items: center;
+  background-color: #06c;
+  color: white;
+  padding: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 10px;
+  text-decoration: none;
 }
 
 .hero-text h1 {
@@ -220,7 +241,3 @@ footer {
 
 
 
-/* apple logo */
-nav img:first-child {
-    width: 16px;
-}
